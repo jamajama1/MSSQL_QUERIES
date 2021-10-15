@@ -1,0 +1,42 @@
+html {
+  height: 100%;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+}
+
+.navbar {
+  background-color: rgb(50, 50, 97);
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.navbar ul li {
+  list-style-type: none;
+  display: inline;
+  padding-right: 100px;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: rgb(218, 218, 218);
+}
+
+.navtext {
+  font-size: 70%;
+}
+
+#search {
+  height: 15%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  padding-left: 1px;
+  left: 930px;
+  color: rgb(218, 218, 218);
+}

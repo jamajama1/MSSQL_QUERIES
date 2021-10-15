@@ -1,0 +1,101 @@
+body img {
+  width: 200px;
+  height: 200px;
+  margin: -60px -100px 0px 0px;
+}
+
+.column {
+  float: left;
+  width: 25.33%;
+  height: 550px;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin: 20px;
+  border: 2px solid #857f7f5f;
+  margin-left: 4px;
+  background-color: floralwhite;
+}
+
+.column p {
+  text-align: right;
+  font-size: 80%;
+}
+
+.column span {
+  border-bottom: 1px solid black;
+  padding-bottom: 20px;
+  display: flex;
+}
+
+.column img {
+  margin-top: 30px;
+  width: 100px;
+  height: 100px;
+  padding: 30px 90px 40px 100px;
+}
+
+.column h6 {
+  color: grey;
+  display: inline;
+  font-size: 14px;
+}
+
+.column h6 p {
+  display: inline;
+  color: rgb(23, 23, 22);
+  font-size: 12px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+#navbar {
+  padding-top: 25px;
+  padding-bottom: 25px;
+  position: relative;
+  display: flexbox;
+  width: 100%;
+  background-color: rgb(37, 37, 145);
+}
+
+#navbar div {
+  font-size: 80%;
+  padding: 10px 10px;
+  background-color: coral;
+  margin-left: 90%;
+  fill: coral;
+  display: inline;
+  color: floralwhite;
+}
+
+#news {
+  padding-left: 30px;
+  background-color: rgb(206, 206, 206);
+  height: 850px;
+}
+
+.row h3 {
+  margin-top: 0px;
+  padding-top: 30px;
+  padding-left: 8px;
+}
+
+#pages ul {
+  margin-top: 50px;
+}
+
+#pages ul li {
+  list-style-type: none;
+  text-decoration: none;
+  border: 1px solid rgb(206, 206, 206);
+  display: inline-block;
+  float: left;
+  width: 30px;
+  padding: 20px 20px 20px 20px;
+
+  background-color: rgb(106, 106, 216);
+}
